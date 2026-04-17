@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BKM Kitap BDD Suite" parallel="none">
+    
+    <!-- TestNG üzerinden Cucumber Runner'ı çağırarak tüm testleri tetikleriz -->
+    <test name="Tüm BDD Senaryoları (Sıralı)">
+        <classes>
+            <class name="com.bkm.runners.CukesRunner"/>
+        </classes>
+    </test>
+
+</suite>
